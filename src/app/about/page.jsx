@@ -7,7 +7,7 @@ import TVLanguage from '../assets/pexels-fotoaibe.jpg';
 function About() {
   return (
     <section className="poppins-regular">
-      {/* Top Section */}
+      
       <div className="h-72 flex justify-center flex-col items-center pageTopBg">
         <Image src={logo} alt="logo" className="w-10" />
         <h1 className="font-semibold text-4xl ">About</h1>
@@ -28,34 +28,33 @@ function About() {
 
       <div className="h-16 bg-[#FFF3E3]"></div>
 
-      {/* Content Section */}
+      
       <div className="my-10 container px-4 md:px-10 mx-auto flex flex-col justify-center items-center">
-        {/* Welcome Message */}
+        
         <h2 className="text-2xl md:text-3xl font-bold py-4 text-center">
-          Welcome to Furniro, where design meets comfort.
+          Welcome to Furniro&#44; where design meets comfort.
         </h2>
 
         <p className="text-base text-center md:text-lg mb-8 md:mb-20">
-          At Furniro, we believe that furniture is more than just an object in
-          your home—it's a reflection of your lifestyle, personality, and the
+          At Furniro&#44; we believe that furniture is more than just an object in
+          your home—its a reflection of your lifestyle&#44; personality&#44; and the
           spaces where memories are made. Our mission is to help you create
-          those spaces by offering modern, timeless furniture pieces that
-          combine functionality, aesthetics, and durability.
+          those spaces by offering modern&#44; timeless furniture pieces that
+          combine functionality&#44; aesthetics&#44; and durability.
         </p>
 
-        {/* Features Section */}
+        
         <div className="mb-12 text-center container mx-auto px-4 md:px-0">
           <div className="space-y-12">
-            {/* High-Quality Materials */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex flex-col justify-center p-10">
                 <h3 className="text-xl md:text-2xl font-semibold text-gray-700">
                   High-Quality Materials
                 </h3>
                 <p className="text-gray-600 text-sm md:text-lg">
-                  We take pride in sourcing only the finest materials, from
+                  We take pride in sourcing only the finest materials&#44; from
                   sustainably harvested woods to high-grade fabrics. Every piece
-                  of furniture is crafted to last, ensuring that your investment
+                  of furniture is crafted to last ensuring that your investment
                   stands the test of time.
                 </p>
               </div>
@@ -79,8 +78,8 @@ function About() {
                 </h3>
                 <p className="text-gray-600 mt-2 text-sm md:text-base">
                   Our designers keep up with the latest trends while staying true to the
-                  classics. Whether you're looking for minimalist pieces or something bold
-                  and unique, Furniro has a wide range of styles to complement your home.
+                  classics. Whether youre looking for minimalist pieces or something bold
+                  and unique&#44; Furniro has a wide range of styles to complement your home.
                 </p>
               </div>
             </div>
@@ -92,9 +91,9 @@ function About() {
                   Customization Options
                 </h3>
                 <p className="text-gray-600 mt-2 text-sm md:text-base">
-                  At Furniro, we know that every home is unique. That's why many
-                  of our pieces come with customizable options, from fabric
-                  colors to finishes, so you can create furniture that is truly
+                  At Furniro&#44; we know that every home is unique. Thats why many
+                  of our pieces come with customizable options&#44; from fabric
+                  colors to finishes&#44; so you can create furniture that is truly
                   yours.
                 </p>
               </div>
@@ -111,12 +110,12 @@ function About() {
             Our Vision
           </h2>
           <p className="text-gray-600 drop-shadow-lg p-4 leading-relaxed text-center text-sm md:text-base">
-            At Furniro, we aim to become the go-to destination for furniture
+            At Furniro&#44; we aim to become the go-to destination for furniture
             enthusiasts and design-conscious homeowners worldwide. We are
-            continuously innovating, offering new designs, and expanding our
+            continuously innovating&#44; offering new designs&#44; and expanding our
             collections to meet the evolving needs of our customers. Our vision
             is to provide furniture that not only serves a purpose but also adds
-            beauty, comfort, and joy to your everyday life.
+            beauty&#44; comfort&#44; and joy to your everyday life.
           </p>
         </div>
       </div>

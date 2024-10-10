@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import logo from '../assets/logo.png'; // Ensure your logo is in the public directory
+import logo from '../assets/logo.png';
 import ProductCards from '@/components/ProdctsCard';
 
 
 function Shop() {
   return (
     <section className='poppins-regular'>
-      {/* Top Section with Logo */}
+      
       <div className='h-72 flex justify-center flex-col items-center pageTopBg'>
         <Image src={logo} alt="logo" className='w-10' />
         <h1 className='font-semibold text-4xl'>Shop</h1>
@@ -24,11 +24,10 @@ function Shop() {
         </p>
       </div>
 
-      {/* Background Section */}
       <div className='h-16 bg-[#FFF3E3]'>
       </div>
 
-      {/* Products Section */}
+
       <div className='h-fit'>
         <ProductCards />
       </div>

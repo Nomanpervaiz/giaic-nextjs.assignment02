@@ -23,7 +23,7 @@ function Home() {
           <div className="lg:max-w-lg lg:w-full flex flex-col justify-center px-5 md:px-10 md:w-1/2 sm:w-5/6 w-3/1 h-96 bg-[#FFF3E3]">
             <p className='font-serif font-semibold'>New Arrival</p>
             <h1 className='text-yellow-600 xl:text-5xl sm:text-4xl lg:text-5xl text-3xl font-bold'>Discover Our <br /> New Collection</h1>
-            <p className='font-semibold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem incidunt olestias luptatem. Dignissimos, </p>
+            <p className='font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem incidunt olestias luptatem. Dignissimos</p>
             <Button className='bg-yellow-600 rounded mt-6 p-6 font-bold text-white w-40'>
               Buy Now
             </Button>

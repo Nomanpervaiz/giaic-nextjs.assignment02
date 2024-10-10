@@ -21,7 +21,7 @@ export default function Header() {
                             alt="Logo"
                             src={mainLogo}
                             className="h-7 w-auto lg:h-8 md:h-8 sm:h-8"
-                            priority // Adds loading optimization
+                            priority 
                         />
                     </Link>
                 </div>
@@ -65,10 +65,9 @@ export default function Header() {
                     <Link href="/user-profile" className="text-sm font-semibold leading-6 px-3 text-gray-900">
                         <UserOutlined style={{ fontSize: "18px" }} />
                     </Link>
-                    {/* Uncomment if you want to add search functionality */}
-                    {/* <Link href="/search" className="text-sm font-semibold leading-6 px-3 text-gray-900">
+                     <Link href="/search" className="text-sm font-semibold leading-6 px-3 text-gray-900">
                         <SearchOutlined style={{ fontSize: "18px" }} />
-                    </Link> */}
+                    </Link>
                     <Link href="/cart" className="text-sm font-semibold leading-6 px-3 text-gray-900">
                         <ShoppingCartOutlined style={{ fontSize: "20px" }} />
                     </Link>

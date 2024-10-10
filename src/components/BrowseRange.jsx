@@ -9,7 +9,7 @@ function HomeSec2() {
         <div className="container px-10 py-24 mx-auto">
           <div className='text-center mb-16'>
             <h1 className='font-bold text-3xl py-2'>Browse You Range</h1>
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aliquam ipsum officiis sed laborum dolor?</p>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquam ipsum officiis sed laborum dolor?</p>
           </div>
           <div className="flex flex-wrap justify-center -m-4">
             <div className="py-2 lg:w-1/3 md:w-1/3">
